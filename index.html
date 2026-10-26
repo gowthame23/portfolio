@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gowtham Ejjurothu | Portfolio</title>
+<meta name="description" content="Portfolio of Ejjurothu Gowtham, B.Tech CSE student at IIIT Sri City. Full-stack developer and deep learning researcher.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#home" class="logo">gowtham<span>.</span></a>
+  <nav id="menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#research">Research</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <button id="theme" aria-label="Toggle theme">◐</button>
+    <button id="burger" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-text reveal">
+      <p class="mono tag">Hi, I'm</p>
+      <h1>Ejjurothu <span class="grad">Gowtham</span></h1>
+      <p class="role">Full-Stack Developer &amp; Deep Learning Researcher</p>
+      <p class="lead">Computer Science undergraduate at IIIT Sri City. I build real-time web platforms and reimplement research papers in PyTorch.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="Resume_1.pdf" download>Download Resume</a>
+        <a class="btn ghost" href="#contact">Contact</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/gowthame23" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/gowtham-ejjurothu" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:gowthamejjurothu@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <div class="ring"><img src="photo.jpg" alt="Portrait of Ejjurothu Gowtham"></div>
+    </div>
+  </section>
+
+  <section id="about" class="reveal">
+    <h2><span class="mono">01.</span> About</h2>
+    <div class="about-grid">
+      <div>
+        <p>I'm a B.Tech student in Computer Science and Engineering at the Indian Institute of Information Technology, Sri City. I enjoy working across the stack, from FastAPI and Node backends to React frontends, and I'm equally drawn to deep learning research.</p>
+        <p>Recently I rebuilt a published IEEE TGRS landslide-susceptibility model from scratch and worked on deep learning channel estimation for massive MIMO. Outside of code, I captain the college badminton team.</p>
+      </div>
+      <div class="stats">
+        <div><b>10/10</b><span>SSC GPA</span></div>
+        <div><b>93.9%</b><span>Intermediate (MPC)</span></div>
+        <div><b>Top 0.1%</b><span>Unstop Talent Park 2025</span></div>
+        <div><b>~0.99</b><span>Kappa, IED-GCN</span></div>
+      </div>
+    </div>
+    <div class="edu">
+      <div class="edu-item"><span class="date mono">Aug 2023 - Present</span><h3>IIIT Sri City</h3><p>B.Tech in Computer Science and Engineering</p></div>
+      <div class="edu-item"><span class="date mono">Jun 2021 - Jun 2023</span><h3>Narayana Junior College, Vellanki</h3><p>Intermediate (MPC), 93.9%</p></div>
+      <div class="edu-item"><span class="date mono">Jun 2016 - Apr 2021</span><h3>Viswabarthi High School, Gudivada</h3><p>SSC, Olympiad Batch, GPA 10/10</p></div>
+    </div>
+  </section>
+
+  <section id="skills" class="reveal">
+    <h2><span class="mono">02.</span> Skills</h2>
+    <div class="cards skills">
+      <div class="card"><h3>Languages</h3><div class="chips"><i>Python</i><i>Java</i><i>C</i><i>C++</i><i>SQL</i><i>R</i><i>TypeScript</i></div></div>
+      <div class="card"><h3>Web</h3><div class="chips"><i>React</i><i>Next.js</i><i>Node.js</i><i>Express.js</i><i>FastAPI</i><i>MongoDB</i><i>SQLite/PostgreSQL</i><i>Tailwind CSS</i></div></div>
+      <div class="card"><h3>Tools &amp; Platforms</h3><div class="chips"><i>Git</i><i>Linux</i><i>Postman</i><i>AWS</i><i>Railway</i><i>Vercel</i><i>Streamlit</i></div></div>
+      <div class="card"><h3>Core CS</h3><div class="chips"><i>DSA</i><i>OOP</i><i>DBMS</i><i>Operating Systems</i><i>Computer Networks</i></div></div>
+      <div class="card"><h3>Soft Skills</h3><div class="chips"><i>Problem Solving</i><i>Communication</i><i>Leadership</i><i>Teamwork</i><i>Logical Reasoning</i></div></div>
+    </div>
+  </section>
+
+  <section id="projects" class="reveal">
+    <h2><span class="mono">03.</span> Projects</h2>
+    <div class="cards two">
+      <article class="card project">
+        <h3>Campus Pulse</h3>
+        <p class="sub">Campus complaint-management platform</p>
+        <ul>
+          <li>Built and deployed a full-stack platform with 6 role-based portals, covering the complaint lifecycle from submission through SLA-based resolution, with session auth, RBAC and audit logging.</li>
+          <li>Implemented real-time WebSocket chat and notifications, an automated SLA escalation scheduler, OTP-based password reset, bulk Excel/CSV import, and automated database backup and restore.</li>
+        </ul>
+        <div class="chips"><i>Python</i><i>FastAPI</i><i>React</i><i>Tailwind CSS</i><i>SQLite/PostgreSQL</i><i>WebSockets</i></div>
+        <a class="link" href="https://github.com/gowthame23" target="_blank" rel="noopener">GitHub →</a>
+      </article>
+      <article class="card project">
+        <h3>EduAxis</h3>
+        <p class="sub">School management system</p>
+        <ul>
+          <li>Extended a multi-tenant school management platform with a Redis caching layer and an Apache Solr search engine, including dedicated services and a reindexing pipeline.</li>
+          <li>Built the login/register flow, role-based dashboards, and assignment submission interface for students, teachers and admins using React and Tailwind CSS.</li>
+        </ul>
+        <div class="chips"><i>React</i><i>Node.js</i><i>Express</i><i>MongoDB</i><i>Redis</i><i>Solr</i><i>Tailwind CSS</i></div>
+        <a class="link" href="https://github.com/gowthame23" target="_blank" rel="noopener">GitHub →</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="research" class="reveal">
+    <h2><span class="mono">04.</span> Research</h2>
+    <div class="timeline">
+      <div class="t-item">
+        <span class="date mono">Jan 2026 - Apr 2026</span>
+        <h3>IED-GCN: Landslide Susceptibility Assessment</h3>
+        <p class="sub">Under Prof. Arun P.V., Dept. of CSE, IIIT Sri City</p>
+        <p>Reimplemented IED-GCN (IEEE TGRS, 2025) from scratch in PyTorch: internal/external graph convolutions with edge decoupling, plus a second variant with one-hot categorical encoding and improved map classing. Diagnosed an oversized-superpixel bug that raised test kappa from ~0.75 to ~0.99.</p>
+        <div class="chips"><i>PyTorch</i><i>Graph Neural Networks</i></div>
+        <a class="link" href="https://github.com/gowthame23" target="_blank" rel="noopener">GitHub →</a>
+      </div>
+      <div class="t-item">
+        <span class="date mono">Jan 2026 - Apr 2026</span>
+        <h3>Deep Learning for Wireless Communication</h3>
+        <p class="sub">Under Prof. Hemanth Kumar, Dept. of CSE, IIIT Sri City</p>
+        <p>Developed deep learning-based channel estimation techniques for LIS-assisted massive MIMO systems.</p>
+        <div class="chips"><i>PyTorch</i><i>Massive MIMO</i></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="leadership" class="reveal">
+    <h2><span class="mono">05.</span> Leadership &amp; Achievements</h2>
+    <div class="cards two">
+      <div class="card">
+        <h3>Positions of Responsibility</h3>
+        <ul class="plain">
+          <li><b>Badminton Captain, IIIT Sri City</b> <span class="date mono">Aug 2025 - Present</span><br>Led the team: training sessions, selection and match strategy for tournaments.</li>
+          <li><b>NSS Volunteer</b> <span class="date mono">Nov 2023 - May 2026</span><br>Social outreach and community service initiatives.</li>
+          <li><b>Stalls Team, Abhisarga 2024</b> <span class="date mono">Feb - Apr 2024</span><br>Coordinated vendors and managed stall logistics at the annual college fest.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Achievements &amp; Certifications</h3>
+        <ul class="plain">
+          <li>Qualified for Round 2 of Unstop Talent Park 2025 (Top 0.1% among 370,000+ participants).</li>
+          <li>Represented IIIT Sri City in inter-college badminton tournaments.</li>
+          <li>Completed Python Skill Up certification by GeeksforGeeks (Nation Skill Up).</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal contact">
+    <h2><span class="mono">06.</span> Get in touch</h2>
+    <p class="lead">I'm open to internships, research collaborations and interesting projects. My inbox is always open.</p>
+    <a class="btn primary big" href="mailto:gowthamejjurothu@gmail.com">gowthamejjurothu@gmail.com</a>
+    <div class="socials center">
+      <a href="tel:+917993575379">+91 7993575379</a>
+      <a href="https://github.com/gowthame23" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/gowtham-ejjurothu" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p class="loc">Andhra Pradesh, India</p>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Ejjurothu Gowtham</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
